@@ -18,3 +18,15 @@ function destructivelyRemoveLastCat() {
 function destructivelyRemoveFirstCat() {
     cats.shift();
 }
+
+function appendCat(name) {
+    // appends a cat to the cats array and returns a 
+    // new array, leaving the cats array unchanged
+    return [...cats, name];
+}
+
+function prependCat(name) {
+    // prepends a cat to the cats array and returns 
+    // a new array, leaving the cats array unchanged
+    return [name, ...cats];
+}
