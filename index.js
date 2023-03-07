@@ -30,3 +30,15 @@ function prependCat(name) {
     // a new array, leaving the cats array unchanged
     return [name, ...cats];
 }
+
+function removeLastCat() {
+    // removes the last cat in the cats array and
+    // returns a new array, leaving the cats array unchanged
+    return cats.slice(0, cats.length -1);
+}
+
+function removeFirstCat() {
+    // removes the first cat from the cats array and returns
+    // a new array, leaving the cats array unchanged
+    return cats.slice(1, cats.length);
+}
