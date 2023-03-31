@@ -1,5 +1,5 @@
 // Write your solution here!
-// js
+// js- phase 0 and phase 1?
 
 const cats = ["Milo", "Otis", "Garfield"];
 
